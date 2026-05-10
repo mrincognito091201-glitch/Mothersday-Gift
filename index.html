@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Leah — Happy Mother’s Day</title>
+  <meta name="description" content="A dramatic Mother's Day surprise website for Leah with family photos and a heartfelt reveal." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+
+  <header class="topbar wrap">
+    <nav aria-label="Main navigation" class="stagger-1">
+      <div class="brand">
+        <div class="brand-mark">❤</div>
+        <span>For Mommy Leah</span>
+      </div>
+      <div class="nav-note">A Mother’s Day Gift from your four sons</div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow stagger-1">Mother’s Day Gift!</div>
+          <h1 class="stagger-2">Happy Mother’s Day, Mommy
+          </h1>
+          <p class="lead stagger-3">
+            This is gift is dedicated to you mother thank you for raising us!
+          </p>
+          <div class="actions stagger-4">
+            <button class="btn btn-primary" id="startJourney">Begin the Journey</button>
+            <button class="btn btn-secondary" id="sendLove">Send Love</button>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="spotlight"></div>
+          <div class="portrait-stage">
+            <img src="image/mommyandnanay.jpg" alt="Leah with Nanay">
+            <div class="frame-glow"></div>
+          </div>
+          <div class="hero-tag">
+            <strong>From a daughter to a Mother</strong>
+            <span>
+              From a loving daughter to a loving Mother
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap story">
+        <article class="story-panel reveal" id="scene1">
+          <div class="photo-side">
+            <img src="image/mommyandnanay.jpg" alt="Leah and Nanay together">
+          </div>
+          <div class="copy-side">
+            <div class="index-mark">Love one</div>
+            <h2>Happy Mother's day</h2>
+            <p>
+              Every family story starts with a bond. And having a loving Mother will become a great Mother
+            </p>
+            <div class="line-accent"></div>
+          </div>
+        </article>
+
+        <article class="story-panel reverse reveal" id="scene2">
+          <div class="copy-side">
+            <div class="index-mark">Love Two</div>
+            <h2>My Beautiful Mother!</h2>
+            <p>
+              Thank you for all the sacrifices and all the love you have given us 
+              not only by being our mother but our guide and teacher. I love you 
+            </p>
+            <div class="line-accent"></div>
+          </div>
+          <div class="photo-side">
+            <img src="image/mommy.jpg" alt="Leah portrait">
+          </div>
+        </article>
+
+        <article class="story-panel reveal" id="scene3">
+          <div class="photo-side">
+            <img src="image/daddy_mommy.jpg" alt="Daddy and Mommy together">
+          </div>
+          <div class="copy-side">
+            <div class="index-mark">Father and Mother</div>
+            <h2>A love that stands together</h2>
+            <p>
+              Side by side, through laughter, sacrifice, and every season of life. This is the kind of love
+              that builds a home — steady, enduring, and full of heart.
+            </p>
+            <div class="line-accent"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <section class="reveal-stage reveal" id="bigReveal">
+          <div class="curtain left">
+            <div class="curtain-tie left"></div>
+          </div>
+          <div class="curtain right">
+            <div class="curtain-tie right"></div>
+          </div>
+
+          <div class="curtain-trigger">
+            <button class="btn btn-primary" id="openCurtains">Open the Dramatic Reveal</button>
+            <span class="hint">Tap to open your surprise</span>
+          </div>
+
+          <div class="glitter" id="glitter" aria-hidden="true"></div>
+
+          <div class="reveal-content">
+            <div class="family-frame">
+              <img src="image/family.jpg" alt="Family portrait">
+            </div>
+
+            <div class="family-copy">
+              <div class="mini">The Big Family</div>
+              <h3>The Team of the family</h3>
+              <p>
+                Here we our in our smallest and youngest form now we are grown having our own life making decisions 
+                but in every path we take not only we can see the both of you from our back's even though you let us decide
+                what path we choose whatever choices the firm guidance and teachings is all in our mind and hearts with all love
+                that you have given us our hearts are full of joy thank you for being a mother to us! 
+              </p>
+              <div class="dedication">
+                Happy Mother’s Day, <strong>Mommy</strong>. 
+                "There are 5 billion people on this planet, and you're the perfect mom for me" I love you
+              </div>
+              <div class="reveal-actions">
+                <button class="btn btn-secondary" id="toTop">Back to Top</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div class="foot reveal">
+      Made with love for Mommy Leah — Happy Mother’s Day ✨
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
